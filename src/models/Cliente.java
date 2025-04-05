@@ -14,10 +14,10 @@ public class Cliente extends Pessoa {
 
     @Override
     public String getDescricao() {
-        return "Cliente{" +
-                "planoCliente='" + planoCliente + '\'' +
-                ", nomePessoa='" + nomePessoa + '\'' +
-                ", idadePessoa=" + idadePessoa +
+        return "Cliente{ " +
+                "planoCliente= '" + planoCliente + '\'' +
+                ", nomePessoa= '" + nomePessoa + '\'' +
+                ", idadePessoa= " + idadePessoa +
                 '}';
     }
 }

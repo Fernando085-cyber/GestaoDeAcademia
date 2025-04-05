@@ -1,6 +1,6 @@
 package models;
 
-abstract class Instrutor extends Pessoa {
+public class Instrutor extends Pessoa {
     private String especialidadeInstrutor;
 
     public Instrutor(String nome, int idade, String especialidadeInstrutor) {
@@ -13,11 +13,11 @@ abstract class Instrutor extends Pessoa {
     }
 
     @Override
-    public String toString() {
-        return "Instrutor{" +
-                "especialidadeInstrutor='" + especialidadeInstrutor + '\'' +
-                ", nomePessoa='" + nomePessoa + '\'' +
-                ", idadePessoa=" + idadePessoa +
+    public String getDescricao() {
+        return "Instrutor{ " +
+                "especialidadeInstrutor= '" + especialidadeInstrutor + '\'' +
+                ", nomePessoa= '" + nomePessoa + '\'' +
+                ", idadePessoa= " + idadePessoa +
                 '}';
     }
 
